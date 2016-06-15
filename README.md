@@ -198,17 +198,17 @@ _backup.env:_
 
 ## Source Code
 
-The source code of wordpress-backup can be found at [GitHub](https://github.com/angelo-v/wordpress-backup)
+The source code of wordpress-backup can be found at [GitHub](https://github.com/KainosCreation/wordpress-backup)
 
 ## Contact
 
-Please contact me for any questions & feedback: angelo.veltens@online.de
+Please contact me for any questions & feedback: matyre73@gmail.com
 
 ## License
 
 The MIT License (MIT)
 
-Copyright (c) 2015, Angelo Veltens
+Copyright (c) 2015, Wade Dunbar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

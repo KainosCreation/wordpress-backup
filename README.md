@@ -174,6 +174,8 @@ _docker-compose.yml:_
        - wordpress
       links:
        - mysql
+      env_file:
+       - ./backup.env
 
 _mysql.env:_
 
@@ -187,6 +189,12 @@ _wordpress.env:_
     WORDPRESS_DB_NAME=wordpress
     WORDPRESS_DB_USER=wordpress
     WORDPRESS_DB_PASSWORD=<user-password>
+
+_backup.env:_
+
+    MYSQL_ENV_MYSQL_DATABASE=wordpress
+    MYSQL_ENV_MYSQL_USER=wordpress
+    MYSQL_ENV_MYSQL_PASSWORD=<user-password>
 
 ## Source Code
 
